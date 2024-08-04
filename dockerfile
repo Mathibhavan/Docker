@@ -11,6 +11,6 @@
 # Create image and containerise a webpage
 
 FROM nginx:alpine
-#COPY index.html /usr/share/nginx/html/index.html
-COPY  . /index
-CMD [ "nginx" , "-g" ]
+COPY index.html /usr/share/nginx/html/index.html
+#COPY  . /index
+#CMD [ "nginx" , "-g" ]
