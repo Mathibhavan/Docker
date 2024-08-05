@@ -12,5 +12,6 @@
 
 FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/index.html
+EXPOSE 90
 #COPY  . /index
 #CMD [ "nginx" , "-g" ]
